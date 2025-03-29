@@ -2,7 +2,7 @@
 CREATE TABLE `heroes` (
     `id` INTEGER NOT NULL AUTO_INCREMENT,
     `civilName` VARCHAR(100) NOT NULL,
-    `superName` VARCHAR(100) NOT NULL,
+    `heroName` VARCHAR(100) NOT NULL,
     `age` INTEGER NOT NULL,
     `team` VARCHAR(100) NULL,
 

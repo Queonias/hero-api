@@ -13,13 +13,12 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-
 model Hero {
-  id           Int         @id @default(autoincrement())
-  civilName    String      @db.VarChar(100)
-  superName    String      @db.VarChar(100)
-  age          Int
-  team         String?     @db.VarChar(100)
+  id          Int @id @default(autoincrement())
+  civilName   String @db.VarChar(100)
+  heroName    String @db.VarChar(100)
+  age         Int
+  team        String? @db.VarChar(100)
 
   @@map("heroes")
 }

@@ -1,7 +1,7 @@
 export type HeroDto = {
   id?: number;
   civilName: string;
-  superName: string;
+  heroName: string;
   age: number;
   team?: string;
 };
